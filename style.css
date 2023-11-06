@@ -15,11 +15,21 @@ body{
 }
 
 .principal {
-    background-image: url(/img/Background.png);
+    background-image: url(img/Background.png);
     background-repeat: no-repeat;
 }
 
 .container {
     height: 100vh;
     background-size: contain;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: lem;
+    color: var(--branco-principal);
+    display: block;
 }
